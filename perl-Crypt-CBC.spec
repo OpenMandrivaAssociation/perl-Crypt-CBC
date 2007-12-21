@@ -21,6 +21,7 @@ BuildRequires:	perl(Crypt::CAST5)
 BuildRequires:	perl(Crypt::DES)
 BuildRequires:	perl(Crypt::IDEA)
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 This module is a Perl-only implementation of the cryptographic cipher
