@@ -1,7 +1,7 @@
 %define	module	Crypt-CBC
 %define name	perl-%{module}
-%define version	2.29
-%define release	%mkrel 2
+%define version	2.30
+%define release	%mkrel 1
 
 Name:		%{name}
 Version:	%{version}
