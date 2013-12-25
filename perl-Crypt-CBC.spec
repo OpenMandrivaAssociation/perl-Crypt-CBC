@@ -1,14 +1,14 @@
 %define	modname	Crypt-CBC
-%define modver	2.30
+%define modver 2.33
 
 Summary:	Encrypt Data with Cipher Block Chaining Mode
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	10
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}/
-Source0:	http://www.cpan.org/modules/by-module/Crypt/%{modname}-%{modver}.tar.bz2
+Source0:	http://www.cpan.org/modules/by-module/Crypt/Crypt-CBC-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(Crypt::Rijndael)
@@ -52,4 +52,5 @@ make test
 %doc Changes README eg
 %{perl_vendorlib}/Crypt
 %{_mandir}/man3*/*
+
 
